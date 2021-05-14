@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css?after">
+    <title>회원가입</title>
+</head>
+<body>
+    <form action="signup.php" method="POST" class="sign_form">
+        <div class="sign_id">
+            <label class="sign_id1" for="id">ID</label>
+            <input class="sign_id2" type="text" name="id">
+        </div>
+
+        <div class="sign_pass">
+            <label class="sign_pass1" for="password">PASSWORD</label>
+            <input class="sign_pass2" type="text" name="password">
+        </div>
+
+        <div class="sign_rpass">
+            <label class="sign_rpass1" for="rpassword">PASSWORD CHECK</label>
+            <input class="sign_rpass2" type="text" name="rpassword">
+        </div>
+
+        <div class="sign_name">
+            <label class="sign_name1" for="name">NAME</label>
+            <input class="sign_name2" type="text" name="name">
+        </div>
+
+        <div class="sign_email">
+            <label class="sign_email1" for="email">EMAIL</label>
+            <input class="sign_email2" type="text" name="email">
+        </div>
+
+        <div class="sign_sub">
+            <input type="submit" value="회원가입">
+        </div>
+
+        <div class="sign_back">
+            <button><a href=login.html>Back Page</a></button>
+        </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css?after">
+    <title>로그인</title>
+</head>
+<body>
+    <form action="login_check.php" method="POST" class="log_form">
+        <div class="log_id">
+            <label class="log_id1" for="id">ID</label>
+            <input class="log_id2" type="text" name="id">
+        </div>
+
+        <div class="log_pass">
+            <label class="log_pass1" for="password">PASSWORD</label>
+            <input class="log_pass2" type="password" name="password">
+        </div>
+
+        <div class="log_sub">
+            <input type="submit" value="LOGIN">
+        </div>
+    </form>
+
+    <div class="log_sign">
+        <button onclick="location.href='signup.html'">Sign Up</button>
+    </div>
+</body>
+</html>

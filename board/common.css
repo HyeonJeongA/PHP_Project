@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
+
+* {
+  font-family: "Gothic A1", sans-serif;
+  background-color: #fce4ec;
+  padding: 0px 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  height: 2px;
+  background-color: #a5a5a5;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.log_form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.log_id {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.log_id .log_id1 {
+  font-size: 32px;
+  margin-right: 140px;
+}
+
+.log_id .log_id2 {
+  width: 200px;
+}
+
+.log_pass {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.log_pass .log_pass1 {
+  font-size: 32px;
+}
+
+.log_pass .log_pass2 {
+  width: 200px;
+}
+
+.log_sub {
+  margin: 20px 0px;
+}
+
+.log_sub input {
+  padding: 6px 47px;
+  background-color: #ffffff;
+  border: 5px solid #c9b2ba;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.log_sign {
+  display: flex;
+  justify-content: center;
+}
+
+.log_sign button {
+  padding: 6px 42px;
+  background-color: #ffffff;
+  border: 5px solid #c9b2ba;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.sign_form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 180px 0px;
+}
+
+.sign_sub input {
+  margin-top: 20px;
+  padding: 6px 47px;
+  background-color: #ffffff;
+  border: 5px solid #c9b2ba;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.sign_id {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign_id .sign_id1 {
+  font-size: 27px;
+  margin-right: 210px;
+}
+
+.sign_id .sign_id2 {
+  width: 200px;
+}
+
+.sign_pass {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign_pass .sign_pass1 {
+  font-size: 27px;
+  margin-right: 95px;
+}
+
+.sign_pass .sign_pass2 {
+  width: 200px;
+}
+
+.sign_rpass {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign_rpass .sign_rpass1 {
+  font-size: 27px;
+}
+
+.sign_rpass .sign_rpass2 {
+  width: 200px;
+}
+
+.sign_name {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign_name .sign_name1 {
+  font-size: 27px;
+  margin-right: 160px;
+}
+
+.sign_name .sign_name2 {
+  width: 200px;
+}
+
+.sign_email {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign_email .sign_email1 {
+  font-size: 27px;
+  margin-right: 158px;
+}
+
+.sign_email .sign_email2 {
+  width: 200px;
+}
+
+.sign_back button {
+  margin-top: 20px;
+  padding: 6px 25px;
+  background-color: #ffffff;
+  border: 5px solid #c9b2ba;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.sign_back button a {
+  background-color: #ffffff;
+}
+
+.check {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 250px;
+  font-size: 25px;
+}
+
+.signup_check {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 250px;
+  font-size: 25px;
+}
+
+.logout button {
+  padding: 5px 5px;
+  background-color: #ffffff;
+  border: 5px solid #c9b2ba;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.logout button a {
+  background-color: #ffffff;
+}
+
+.main_h1 {
+  text-align: center;
+  background-color: #ffffff;
+  border: 10px solid #c9b2ba;
+  border-radius: 20px;
+  padding: 20px 0px;
+}
+
+.main_h2 {
+  display: flex;
+  justify-content: center;
+  background-color: #c9b2ba;
+  color: #ffffff;
+  padding: 10px 0px;
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.main_h2 a {
+  background-color: #c9b2ba;
+  color: #ffffff;
+}
+
+#search {
+  height: 30px;
+}
+
+#msgdel {
+  height: 30px;
+}
+
+.view_h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.view_msg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #ffffff;
+  border: 2px solid #c9b2ba;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.com_h1 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #c9b2ba;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.write_form {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#name {
+  height: 30px;
+}
+
+.write_btn {
+  background-color: #ffffff;
+  border: 2px solid #c9b2ba;
+  border-radius: 20px;
+  height: 30px;
+  width: 150px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.com_back {
+  display: flex;
+  background-color: #ffffff;
+  border: 2px solid #c9b2ba;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px 0px;
+  width: 250px;
+  font-size: 16px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.com_back a {
+  background-color: #ffffff;
+  display: flex;
+  height: 100%;
+}
+
+.del_ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.del_p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.search_ul ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.insert {
+  display: flex;
+  margin: 100px 0px;
+  justify-content: center;
+  font-size: 25px;
+}
